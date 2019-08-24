@@ -9,3 +9,5 @@ import matplotlib.pyplot as pp
 planets = pd.read_csv('Planets2.csv')
 
 print(planets)
+planets = pd.read_csv('Planets2.csv', usecols=[0, 1, 2, 3])
+print(planets)
