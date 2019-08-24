@@ -7,3 +7,5 @@ import matplotlib.pyplot as pp
 # %matplotlib inline
 
 planets = pd.read_csv('Planets2.csv')
+
+print(planets)
