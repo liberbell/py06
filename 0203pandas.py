@@ -30,3 +30,4 @@ print(planets.set_index('Planet', inplace=True))
 
 print(planets.FirstVisited['MERCURY'])
 print(planets.loc['MERCURY'].FirstVisited)
+print(planets.loc['MERCURY', 'FirstVisited'])
