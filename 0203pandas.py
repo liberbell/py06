@@ -24,3 +24,6 @@ print(len(planets))
 
 print(planets.loc['MERCURY':'EARTH'])
 print(planets.columns)
+
+planets = pd.read_csv('Planets2.csv')
+print(planets.set_index('Planet', inplace=True))
