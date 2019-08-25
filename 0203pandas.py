@@ -34,3 +34,5 @@ print(planets.loc['MERCURY', 'FirstVisited'])
 print(type(planets.loc['MERCURY', 'FirstVisited']))
 
 print(pd.to_datetime(planets.FirstVisited))
+planets.FirstVisited = pd.to_datetime(planets.FirstVisited)
+print(planets.FirstVisited.dt.year)
