@@ -16,4 +16,4 @@ print(planets['Mass'])
 print(planets.Mass)
 print(planets.index)
 
-pint(planets.loc[0])
+print(planets.loc[0])
