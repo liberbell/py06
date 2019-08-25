@@ -4,4 +4,4 @@ import pandas as pd
 import matplotlib
 import matplotlib.pyplot as pp
 
-billboard = pd.read_csv('billboard.csv', encording='lantin-1')
+billboard = pd.read_csv('billboard.csv', encoding='latin-1')
