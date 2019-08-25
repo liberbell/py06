@@ -27,3 +27,5 @@ print(planets.columns)
 
 planets = pd.read_csv('Planets2.csv')
 print(planets.set_index('Planet', inplace=True))
+
+print(planets.FirstVisited['MERCURY'])
