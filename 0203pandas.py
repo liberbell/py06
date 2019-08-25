@@ -23,3 +23,4 @@ print(planets.info())
 print(len(planets))
 
 print(planets.loc['MERCURY':'EARTH'])
+print(planets.columns)
