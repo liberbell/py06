@@ -22,4 +22,4 @@ print(planets.set_index('Planet', inplace=True))
 print(planets.info())
 print(len(planets))
 
-print(planets.loc['MERCURY'])
+print(planets.loc['MERCURY':'EARTH'])
