@@ -20,3 +20,4 @@ print(planets.loc[0])
 print(planets.set_index('Planet', inplace=True))
 
 print(planets.info())
+print(len(planets))
