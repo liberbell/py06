@@ -14,3 +14,6 @@ pp.savefig('foo.png')
 for index, row in billboard.iterrows():
     pp.plot(range(1,77), row['x1st.week': 'x76th.week'], color='C0', alpha=0.1)
     pp.savefig('foo2.png')
+
+bshort = billboard[['artist.inverted', 'track', 'time', 'data.entered', 'x1st.week', 'x2nd.week', 'x3rd.week']]
+print(bshort.head())
