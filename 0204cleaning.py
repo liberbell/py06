@@ -8,4 +8,4 @@ billboard = pd.read_csv('billboard.csv', encoding='latin-1')
 print(billboard.head())
 
 print(billboard.columns)
-print(pp.plot(billboard.loc[0, 'x1st.week']))
+print(pp.plot(billboard.loc[0, 'x1st.week':'x67th.week']))
