@@ -17,3 +17,6 @@ pp.savefig('foo.png')
 
 bshort = billboard[['artist.inverted', 'track', 'time', 'date.entered', 'x1st.week', 'x2nd.week', 'x3rd.week']]
 print(bshort.head())
+
+bshort.columns = ['artist', 'track', 'time', 'date', 'x1st', 'x2nd', 'x3rd']
+print(bshort.head())
