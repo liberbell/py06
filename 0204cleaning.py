@@ -9,3 +9,4 @@ print(billboard.head())
 
 print(billboard.columns)
 pp.plot(billboard.loc[0, 'x1st.week':'x67th.week'])
+pp.savefig('foo.png')
