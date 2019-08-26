@@ -8,5 +8,5 @@ billboard = pd.read_csv('billboard.csv', encoding='latin-1')
 print(billboard.head())
 
 print(billboard.columns)
-pp.plot(billboard.loc[0, 'x1st.week':'x67th.week'])
+pp.plot(range(1,77),billboard.loc[0, 'x1st.week':'x67th.week'])
 pp.savefig('foo.png')
