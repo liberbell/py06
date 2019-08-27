@@ -22,8 +22,9 @@ bshort.columns = ['artist', 'track', 'time', 'date', 'x1st', 'x2nd', 'x3rd']
 print(bshort.head())
 
 # bmelt = bshort.melt(['artist', 'track', 'time', 'date.entered'],['wk1', 'wk2', 'wk3'], 'week', 'rank')
-bmelt = bshort.melt(['artist','track','time','date.entered'],['wk1','wk2','wk3'],'week','rank')
+# bmelt = bshort.melt(['artist','track','time','date.entered'],['wk1','wk2','wk3'],'week','rank')
 # print(bmelt.head())
 
 # bmelt.
-bfinal = bmelt([])
+bfinal = bmelt[['artist', 'track', 'time', 'date', 'week', 'rank']]
+bfinal.short_values(['artist', 'track'], inplace=True)
