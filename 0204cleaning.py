@@ -28,3 +28,4 @@ print(bshort.head())
 # bmelt.
 bfinal = bmelt[['artist', 'track', 'time', 'date', 'week', 'rank']]
 bfinal.short_values(['artist', 'track'], inplace=True)
+print(bfinal.head())
